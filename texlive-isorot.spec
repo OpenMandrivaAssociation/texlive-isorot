@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/isorot
+# catalog-date 2007-01-08 13:31:52 +0100
+# catalog-license lppl
+# catalog-version undef
 Name:		texlive-isorot
 Version:	20070108
 Release:	1
@@ -46,6 +52,7 @@ class but may be used with any normal class.
 #- source
 %doc %{_texmfdistdir}/source/latex/isorot/isorot.dtx
 %doc %{_texmfdistdir}/source/latex/isorot/isorot.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -56,3 +63,5 @@ class but may be used with any normal class.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
