@@ -52,3 +52,17 @@ class but may be used with any normal class.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20070108-2
++ Revision: 752823
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20070108-1
++ Revision: 718740
+- texlive-isorot
+- texlive-isorot
+- texlive-isorot
+- texlive-isorot
+
