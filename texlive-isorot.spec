@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-isorot
 Version:	20180303
-Release:	1
+Release:	2
 Summary:	Rotation of document elements
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/isorot
